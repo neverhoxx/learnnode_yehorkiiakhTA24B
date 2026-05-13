@@ -6,7 +6,6 @@ import Modals from './pages/Modals.vue';
 import Messages from './pages/Messages.vue';
 import ChuckNorris from './pages/ChuckNorris.vue';
 import RickAndMorty from './pages/RickAndMorty.vue';
-import CanvasExample from './pages/CanvasExample.vue';
 const routes = [
   { path: '/', component: ToDo, name: 'ToDo' },
   { path: '/modals', component: Modals, name: 'Modals' },
@@ -21,8 +20,6 @@ export const router = createRouter({
 });
 
 
-
-// import the root component App from a single-file component.
 import App from './App.vue';
 
 const app = createApp(App).use(router).mount('#app');

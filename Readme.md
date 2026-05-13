@@ -1,2 +1,2 @@
-# LearnNode
-We are learning node ;P
+# Yehor Kiiakh TA-24B
+Tere, õpetaja!
